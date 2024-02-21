@@ -1,0 +1,32 @@
+h1{
+  font-size: 15px;
+}
+.slide {
+  animation: slide 3s infinite;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.search{
+  width: 50pc;
+}
+.navigation{
+  width: 20pc;
+  height: 35pc; 
+  overflow-y: auto;
+}
+.taxe{
+  font-size: 13px;
+}
+.bre{
+  font-size: 11px;
+}
+.tre:hover{
+    border: 1px solid blue;
+}
